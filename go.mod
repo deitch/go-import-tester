@@ -2,7 +2,7 @@ module github.com/deitch/go-import-tester
 
 go 1.21.5
 
-require github.com/deitch/go-import-tester-sub v0.0.0-20240528101732-393976ab1668
+require github.com/deitch/go-import-tester-sub v0.0.0-20240528113251-95cfe6f6a3b2
 
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
