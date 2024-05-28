@@ -1,8 +1,12 @@
-module github.com/deitch/go-import-tester
+module github.com/deitch/go-import-tester/sub
 
 go 1.21.5
 
-require github.com/deitch/go-import-tester/sub v0.0.0-20240528141945-abbc61b83ab2
+require (
+	github.com/containerd/containerd v1.7.17
+	github.com/deitch/go-import-tester/initter v0.0.0-20240528141835-2e7176b8cbae
+	github.com/deitch/go-import-tester/noinit v0.0.0-20240528141835-2e7176b8cbae
+)
 
 require (
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24 // indirect
@@ -10,14 +14,11 @@ require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/Microsoft/hcsshim v0.11.5 // indirect
 	github.com/containerd/cgroups v1.1.0 // indirect
-	github.com/containerd/containerd v1.7.17 // indirect
 	github.com/containerd/continuity v0.4.2 // indirect
 	github.com/containerd/fifo v1.1.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/ttrpc v1.2.4 // indirect
 	github.com/containerd/typeurl/v2 v2.1.1 // indirect
-	github.com/deitch/go-import-tester/initter v0.0.0-20240528141835-2e7176b8cbae // indirect
-	github.com/deitch/go-import-tester/noinit v0.0.0-20240528141835-2e7176b8cbae // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
